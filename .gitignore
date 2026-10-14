@@ -1,0 +1,7 @@
+sqlenv/
+__pycache__/
+*.pyc
+reserving.db
+multi_company_results.csv
+.vscode/
+.env

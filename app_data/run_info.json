@@ -1,0 +1,15 @@
+{
+  "valuation_year": 2007,
+  "accident_years": [
+    1998,
+    2007
+  ],
+  "companies_in_file": 143,
+  "companies_full_history": 121,
+  "companies_modelled": 95,
+  "projections_scored": 855,
+  "settled_rows_left_out": 95,
+  "training_steps": 4275,
+  "still_to_pay_thousands": 18729696.0,
+  "units": "thousands of US dollars"
+}

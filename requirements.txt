@@ -1,0 +1,5 @@
+# What the Streamlit app needs (it reads only the files in app_data/)
+streamlit>=1.30
+plotly>=5.18
+pandas>=2.0
+numpy>=1.24
