@@ -409,7 +409,7 @@ def fig_triangle(tri: pd.DataFrame, fill="none", paths=None, unit="money", fill_
     value_line = "%{text}" if unit == "premium" else "%{text} " + unit_label
 
     def traces(z, scale_colors, status):
-        text = z.apply(lambda col: col.map(lambda v: "" if pd.isna(v) else txt(v)))      # DataFrame.map needs pandas 2.1
+        text = z.apply(lambda col: col.map(lambda v: "" if pd.isna(v) else txt(v)))      
         return go.Heatmap(
             z=z.to_numpy(), x=lags, y=ays, colorscale=_scale(scale_colors), zmin=0, zmax=zmax, showscale=False,
             xgap=2, ygap=2, text=text.to_numpy(), texttemplate="%{text}", hoverongaps=False,
