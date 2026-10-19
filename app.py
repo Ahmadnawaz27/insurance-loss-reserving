@@ -19,8 +19,8 @@ import viz
 
 # --------------------------------------------------------------------- settings
 AUTHOR = "Ahmad Nawaz"
-LINKEDIN_URL = ""      # for example "https://www.linkedin.com/in/your-name"; shown only when set
-GITHUB_URL = ""        # for example "https://github.com/your-name/insurance-loss-reserve"; shown only when set
+LINKEDIN_URL = "https://www.linkedin.com/in/ahmad-nawaz-16684130b"     
+GITHUB_URL = "https://github.com/Ahmadnawaz27/insurance-loss-reserving"        
 DEMO_COMPANY = 965     # Secura Insurance, the company used in the single-company walk-through
 DATA_DIR = Path(__file__).parent / "app_data"
 

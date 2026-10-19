@@ -2,6 +2,8 @@
 
 An end-to-end test on real data. For 95 US insurers, I project how much each accident year will finally cost, using the industry-standard chain-ladder method and three machine-learning variants, and then compare the projections with what was actually paid.
 
+**Live app:** [insurance-loss-reserving.streamlit.app](https://insurance-loss-reserving.streamlit.app/)
+
 ![Headline results](charts/chart_headline.png)
 
 ## The question
